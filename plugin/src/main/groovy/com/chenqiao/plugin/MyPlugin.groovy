@@ -168,7 +168,7 @@ class MyPlugin extends Transform implements Plugin<Project> {
         //只处理需要的class文件
         return (name.endsWith(".class") && !name.startsWith("R\$")
                 && !"R.class".equals(name) && !"BuildConfig.class".equals(name)
-                && "android/support/v4/app/FragmentActivity.class".equals(name))
+                && "androidx/fragment/app/FragmentActivity.class".equals(name))
     }
 
 }
