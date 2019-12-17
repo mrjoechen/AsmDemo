@@ -21,5 +21,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        new TestClass().printTest();
     }
 }

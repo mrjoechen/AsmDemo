@@ -8,7 +8,11 @@ import android.util.Log;
  */
 public class TestClass {
 
+
     void printTest(){
-        Log.i("TAG", "-------> onCreate : " + this.getClass().getSimpleName());
+//        System.out.println("on call print before:");
+          System.out.println("on call print");
+//        System.out.println("on call print after:");
+
     }
 }

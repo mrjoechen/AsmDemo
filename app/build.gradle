@@ -1,4 +1,5 @@
 apply plugin: 'com.android.application'
+//ASM插件
 apply plugin: 'com.chenqiao.plugin.myplugin'
 
 android {
